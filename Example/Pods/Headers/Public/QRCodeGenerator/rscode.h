@@ -1,0 +1,1 @@
+../../../../../QRCodeGenerator/libqrencode/rscode.h

@@ -1,0 +1,16 @@
+PODS:
+  - QRCodeGenerator (3.4.2)
+
+DEPENDENCIES:
+  - QRCodeGenerator (from `../`)
+
+EXTERNAL SOURCES:
+  QRCodeGenerator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QRCodeGenerator: 0178f967b73f3a3c2d6e8e9cc47bd72a196abfef
+
+PODFILE CHECKSUM: 0e60db545b58dda0afcd68d422452c992baddb49
+
+COCOAPODS: 1.7.1

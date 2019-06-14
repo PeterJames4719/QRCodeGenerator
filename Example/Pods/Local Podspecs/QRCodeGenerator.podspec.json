@@ -1,0 +1,26 @@
+{
+  "name": "QRCodeGenerator",
+  "version": "3.4.2",
+  "summary": "A tool to create QR code from string for objc",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PeterJames4719/QRCodeGenerator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PeterJames4719": "daasan123@163.com"
+  },
+  "source": {
+    "git": "https://github.com/PeterJames4719/QRCodeGenerator.git",
+    "tag": "3.4.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "QRCodeGenerator/Classes/**/*",
+    "QRCodeGenerator/libqrencode/*.{h,c}"
+  ],
+  "prefix_header_contents": "#define HAVE_CONFIG_H 1"
+}

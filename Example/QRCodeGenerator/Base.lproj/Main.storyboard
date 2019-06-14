@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,8 +20,44 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ud4-VM-JAK">
+                                <rect key="frame" x="112.5" y="50" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Pqi-Dt-TLp"/>
+                                    <constraint firstAttribute="height" constant="150" id="bzf-RD-yp3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y6k-rY-yrW">
+                                <rect key="frame" x="112.5" y="410" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Aas-zs-bCf"/>
+                                    <constraint firstAttribute="width" constant="150" id="m4W-RX-7Es"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qOz-m9-6rQ">
+                                <rect key="frame" x="112.5" y="230" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="I2k-oD-aIt"/>
+                                    <constraint firstAttribute="height" constant="150" id="rrd-7z-uFb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qOz-m9-6rQ" firstAttribute="top" secondItem="ud4-VM-JAK" secondAttribute="bottom" constant="30" id="OOp-z7-mKz"/>
+                            <constraint firstItem="ud4-VM-JAK" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="30" id="URB-A4-fZC"/>
+                            <constraint firstItem="qOz-m9-6rQ" firstAttribute="centerX" secondItem="ud4-VM-JAK" secondAttribute="centerX" id="ko1-R1-Ia5"/>
+                            <constraint firstItem="y6k-rY-yrW" firstAttribute="top" secondItem="qOz-m9-6rQ" secondAttribute="bottom" constant="30" id="lOO-Ng-DGx"/>
+                            <constraint firstItem="y6k-rY-yrW" firstAttribute="centerX" secondItem="ud4-VM-JAK" secondAttribute="centerX" id="pmk-8Y-rhE"/>
+                            <constraint firstItem="ud4-VM-JAK" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="sRF-38-tfu"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgView1" destination="ud4-VM-JAK" id="raA-WO-kd6"/>
+                        <outlet property="imgView2" destination="qOz-m9-6rQ" id="KoZ-zi-HVw"/>
+                        <outlet property="imgView3" destination="y6k-rY-yrW" id="lB5-CG-bZj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EC18899A7936E8732C53D32DEB6B589 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = 708BACE73E01BF38C0F8CA4CA04A72F6 /* split.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		228840F7B6C94D536559F08D0DBBBC27 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 1859F5E956FCA8AD1668932EBD781B79 /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E130055EC29BE075F0A0E6DE18DF57E /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BC70E0D063A62AD1DFEB6868B8E041 /* qrinput.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		492B05A2BAC1FCE72D7F704751A1C4D6 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = ED1D4E95A5508EFADADCD76990077BA8 /* qrencode.c */; };
+		4C50811286282AFAF8AFE9AC813898ED /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = D29A77FAC688A0F8FB9B26CA354B95AE /* bitstream.c */; };
+		50E04C480B58C5B6953B2D239459977A /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = D89A9D1ECF438FB70F4BAEF8A4D41137 /* mask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		529C787410313FDFD50C6C2A287000BA /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E6520D76CA2502A3443234691B0104 /* qrencode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		578CB1723AD383C541C48C49AF58EC3C /* Pods-QRCodeGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45952AF1945CD2722E74AF90C16307 /* Pods-QRCodeGenerator_Tests-dummy.m */; };
+		57AA873E7EDF54B5EEDAA59B79CCB1F1 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 2451D560B926DF1B53E83A232FE21AD4 /* split.c */; };
+		7E38DC3D11DD86694FE6572DB52A23BA /* mmask.h in Headers */ = {isa = PBXBuildFile; fileRef = A962932EA2E94812BA0034AAF2B15E2A /* mmask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		825BD54AA7ED31C586946A8613E503A5 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D4149047A9C6C3D2016E1A54380D70D /* mask.c */; };
+		8F91BC846596B4109ABF9738B31B186A /* mmask.c in Sources */ = {isa = PBXBuildFile; fileRef = A1AC09FD0EC2127757A13B5081803CF3 /* mmask.c */; };
+		A3B27EC3948D94AC7A364A5A139A131F /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F7728A321896AF857BD4B9AB5A4EEFA /* rscode.c */; };
+		B6A688D140FF2EC28B95085B559D9DE2 /* mqrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D8A078ED8DD0471176E83BB4ECC21B0 /* mqrspec.c */; };
+		CA56323901FAF83C119DBE79F6F945E3 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = 03BDD6024B3944C28E15B5FF3E4B7118 /* qrinput.c */; };
+		CF41C6FB31CFA78A84642F0409396E95 /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 0450E662488AEEFB059180A949A4F465 /* qrspec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3B9CB3271617FE9FCFCBBDBC56860C1 /* Pods-QRCodeGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEFBE238F94F796882F76B80737FED /* Pods-QRCodeGenerator_Example-dummy.m */; };
+		D86EB1CF794F45C24A7B5D4D91B256CB /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2C3B4D5EC6E8E66D9D11E0FED77B6 /* QRCodeGenerator.m */; };
+		DB974FE7B4134EBD58896E9894A5BBE7 /* QRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D1106B50DDE90C1037FBDCB8D43AE3A4 /* QRCodeGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF6402176D278274907226BF1D80E71B /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F6028E6E69867A91748AC6A9DBF498 /* bitstream.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF80086E3F6CB21072DF7AA4462463DE /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F37B5EEEE3ECC01916DCE7DB6D19A /* qrspec.c */; };
+		E320745B7F2788BA36DE3DD3BA507229 /* QRCodeGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7959A1523C50F62A9087080A534FE3 /* QRCodeGenerator-dummy.m */; };
+		EFDDC09C5C92A9B818A95F611145F0A2 /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A232ED608E7C01A1C5CD7734BC2DCB /* rscode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F36F25E7F97BD48619738622DE05B401 /* mqrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = 474C4A3EEE1B5EF10642497E0512C8C5 /* mqrspec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61457E1B741AA99E7C9AEC847B476FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8B0B6171532EC0234B428D8FF5C933C;
+			remoteInfo = QRCodeGenerator;
+		};
+		6C672C2A806B257DE095C0AC698C2B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9705EABBCC2C6AFFECA72D38AE6A3005;
+			remoteInfo = "Pods-QRCodeGenerator_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E343B22BC847125A9CC9ADBF1ABC19 /* Pods-QRCodeGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRCodeGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03BDD6024B3944C28E15B5FF3E4B7118 /* qrinput.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qrinput.c; sourceTree = "<group>"; };
+		0450E662488AEEFB059180A949A4F465 /* qrspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		11D1F680FF952A7EA4821E0CD02082E0 /* Pods-QRCodeGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRCodeGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1748C813DC0BABDA0DC11E805C5ABDA9 /* Pods-QRCodeGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QRCodeGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1859F5E956FCA8AD1668932EBD781B79 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		18794012DD9960E721CF2B1B1C916423 /* Pods-QRCodeGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCodeGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		203247D42111F702541887038B1C2D2B /* QRCodeGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QRCodeGenerator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2451D560B926DF1B53E83A232FE21AD4 /* split.c */ = {isa = PBXFileReference; includeInIndex = 1; path = split.c; sourceTree = "<group>"; };
+		46B7986B22F0FC2A100396BA6ACC596B /* Pods-QRCodeGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCodeGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		474C4A3EEE1B5EF10642497E0512C8C5 /* mqrspec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mqrspec.h; sourceTree = "<group>"; };
+		4C376577A72C7C31A1B78A0F43021265 /* Pods-QRCodeGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCodeGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4149047A9C6C3D2016E1A54380D70D /* mask.c */ = {isa = PBXFileReference; includeInIndex = 1; path = mask.c; sourceTree = "<group>"; };
+		54A11FE2A33ED95D2E8013765B40A7CD /* QRCodeGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QRCodeGenerator.xcconfig; sourceTree = "<group>"; };
+		5B34A3BEFA33494292929929B5112D1A /* libPods-QRCodeGenerator_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QRCodeGenerator_Tests.a"; path = "libPods-QRCodeGenerator_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A232ED608E7C01A1C5CD7734BC2DCB /* rscode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		68E2C3B4D5EC6E8E66D9D11E0FED77B6 /* QRCodeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		708BACE73E01BF38C0F8CA4CA04A72F6 /* split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		72F6028E6E69867A91748AC6A9DBF498 /* bitstream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		741D49427FBD2E6DCFE57148635D078A /* Pods-QRCodeGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QRCodeGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		778CF0F86D82AFD23CA34040454E32D8 /* libQRCodeGenerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQRCodeGenerator.a; path = libQRCodeGenerator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7947496BB36AF4514ACA10BBE6B8AB2E /* QRCodeGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QRCodeGenerator-prefix.pch"; sourceTree = "<group>"; };
+		842E5788019BC6E01050B4DB89E73BBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8B0F37B5EEEE3ECC01916DCE7DB6D19A /* qrspec.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qrspec.c; sourceTree = "<group>"; };
+		8D8A078ED8DD0471176E83BB4ECC21B0 /* mqrspec.c */ = {isa = PBXFileReference; includeInIndex = 1; path = mqrspec.c; sourceTree = "<group>"; };
+		8F905A7DED9E013A86D485170CD724E4 /* Pods-QRCodeGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QRCodeGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F7728A321896AF857BD4B9AB5A4EEFA /* rscode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = rscode.c; sourceTree = "<group>"; };
+		A1AC09FD0EC2127757A13B5081803CF3 /* mmask.c */ = {isa = PBXFileReference; includeInIndex = 1; path = mmask.c; sourceTree = "<group>"; };
+		A4A1C6E93212CB9511FE1A28B5E9DA5B /* libPods-QRCodeGenerator_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QRCodeGenerator_Example.a"; path = "libPods-QRCodeGenerator_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A962932EA2E94812BA0034AAF2B15E2A /* mmask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mmask.h; sourceTree = "<group>"; };
+		AA7959A1523C50F62A9087080A534FE3 /* QRCodeGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QRCodeGenerator-dummy.m"; sourceTree = "<group>"; };
+		B0FEFBE238F94F796882F76B80737FED /* Pods-QRCodeGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRCodeGenerator_Example-dummy.m"; sourceTree = "<group>"; };
+		C3BC70E0D063A62AD1DFEB6868B8E041 /* qrinput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		CC45952AF1945CD2722E74AF90C16307 /* Pods-QRCodeGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QRCodeGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
+		D1106B50DDE90C1037FBDCB8D43AE3A4 /* QRCodeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		D29A77FAC688A0F8FB9B26CA354B95AE /* bitstream.c */ = {isa = PBXFileReference; includeInIndex = 1; path = bitstream.c; sourceTree = "<group>"; };
+		D89A9D1ECF438FB70F4BAEF8A4D41137 /* mask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		ED1D4E95A5508EFADADCD76990077BA8 /* qrencode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = qrencode.c; sourceTree = "<group>"; };
+		F139EFE10A57990D5012C510A94176ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F2E6520D76CA2502A3443234691B0104 /* qrencode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804509BC50EF2183A5CAFD42C4BAFE4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FFCF3479F481D1159DF0363CC3AB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3AA167EE993BAD0B38C1FA8E0E5C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1287298DF35485F0CF4AE3A901ABF0D8 /* Pods-QRCodeGenerator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1748C813DC0BABDA0DC11E805C5ABDA9 /* Pods-QRCodeGenerator_Tests-acknowledgements.markdown */,
+				11D1F680FF952A7EA4821E0CD02082E0 /* Pods-QRCodeGenerator_Tests-acknowledgements.plist */,
+				CC45952AF1945CD2722E74AF90C16307 /* Pods-QRCodeGenerator_Tests-dummy.m */,
+				4C376577A72C7C31A1B78A0F43021265 /* Pods-QRCodeGenerator_Tests.debug.xcconfig */,
+				741D49427FBD2E6DCFE57148635D078A /* Pods-QRCodeGenerator_Tests.release.xcconfig */,
+			);
+			name = "Pods-QRCodeGenerator_Tests";
+			path = "Target Support Files/Pods-QRCodeGenerator_Tests";
+			sourceTree = "<group>";
+		};
+		542ED458A4F2C31A4C5345FD2A9B3E79 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F139EFE10A57990D5012C510A94176ED /* LICENSE */,
+				203247D42111F702541887038B1C2D2B /* QRCodeGenerator.podspec */,
+				842E5788019BC6E01050B4DB89E73BBA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		653D872EE482CDEECD600C9D921AF54F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD55FBD62F550DFD94E519BCA737C296 /* QRCodeGenerator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6803F21D70B21EB5121CB9D83CA705A3 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				D29A77FAC688A0F8FB9B26CA354B95AE /* bitstream.c */,
+				72F6028E6E69867A91748AC6A9DBF498 /* bitstream.h */,
+				1859F5E956FCA8AD1668932EBD781B79 /* config.h */,
+				4D4149047A9C6C3D2016E1A54380D70D /* mask.c */,
+				D89A9D1ECF438FB70F4BAEF8A4D41137 /* mask.h */,
+				A1AC09FD0EC2127757A13B5081803CF3 /* mmask.c */,
+				A962932EA2E94812BA0034AAF2B15E2A /* mmask.h */,
+				8D8A078ED8DD0471176E83BB4ECC21B0 /* mqrspec.c */,
+				474C4A3EEE1B5EF10642497E0512C8C5 /* mqrspec.h */,
+				ED1D4E95A5508EFADADCD76990077BA8 /* qrencode.c */,
+				F2E6520D76CA2502A3443234691B0104 /* qrencode.h */,
+				03BDD6024B3944C28E15B5FF3E4B7118 /* qrinput.c */,
+				C3BC70E0D063A62AD1DFEB6868B8E041 /* qrinput.h */,
+				8B0F37B5EEEE3ECC01916DCE7DB6D19A /* qrspec.c */,
+				0450E662488AEEFB059180A949A4F465 /* qrspec.h */,
+				9F7728A321896AF857BD4B9AB5A4EEFA /* rscode.c */,
+				67A232ED608E7C01A1C5CD7734BC2DCB /* rscode.h */,
+				2451D560B926DF1B53E83A232FE21AD4 /* split.c */,
+				708BACE73E01BF38C0F8CA4CA04A72F6 /* split.h */,
+			);
+			name = libqrencode;
+			path = QRCodeGenerator/libqrencode;
+			sourceTree = "<group>";
+		};
+		70C80B103CE6DF5BCF45B1D26C2850FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1106B50DDE90C1037FBDCB8D43AE3A4 /* QRCodeGenerator.h */,
+				68E2C3B4D5EC6E8E66D9D11E0FED77B6 /* QRCodeGenerator.m */,
+			);
+			name = Classes;
+			path = QRCodeGenerator/Classes;
+			sourceTree = "<group>";
+		};
+		7570E0C321539D5E1E7D10CE543620F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E306D264874080F6789E5B14B8E5892F /* Pods-QRCodeGenerator_Example */,
+				1287298DF35485F0CF4AE3A901ABF0D8 /* Pods-QRCodeGenerator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD55FBD62F550DFD94E519BCA737C296 /* QRCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				70C80B103CE6DF5BCF45B1D26C2850FC /* Classes */,
+				6803F21D70B21EB5121CB9D83CA705A3 /* libqrencode */,
+				542ED458A4F2C31A4C5345FD2A9B3E79 /* Pod */,
+				F0F7178BFCB74DAB1D68A786EC48D348 /* Support Files */,
+			);
+			name = QRCodeGenerator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B5DAE0B1467862486E8F8E32DFB6CDD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4A1C6E93212CB9511FE1A28B5E9DA5B /* libPods-QRCodeGenerator_Example.a */,
+				5B34A3BEFA33494292929929B5112D1A /* libPods-QRCodeGenerator_Tests.a */,
+				778CF0F86D82AFD23CA34040454E32D8 /* libQRCodeGenerator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				653D872EE482CDEECD600C9D921AF54F /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B5DAE0B1467862486E8F8E32DFB6CDD2 /* Products */,
+				7570E0C321539D5E1E7D10CE543620F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E306D264874080F6789E5B14B8E5892F /* Pods-QRCodeGenerator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				01E343B22BC847125A9CC9ADBF1ABC19 /* Pods-QRCodeGenerator_Example-acknowledgements.markdown */,
+				8F905A7DED9E013A86D485170CD724E4 /* Pods-QRCodeGenerator_Example-acknowledgements.plist */,
+				B0FEFBE238F94F796882F76B80737FED /* Pods-QRCodeGenerator_Example-dummy.m */,
+				18794012DD9960E721CF2B1B1C916423 /* Pods-QRCodeGenerator_Example.debug.xcconfig */,
+				46B7986B22F0FC2A100396BA6ACC596B /* Pods-QRCodeGenerator_Example.release.xcconfig */,
+			);
+			name = "Pods-QRCodeGenerator_Example";
+			path = "Target Support Files/Pods-QRCodeGenerator_Example";
+			sourceTree = "<group>";
+		};
+		F0F7178BFCB74DAB1D68A786EC48D348 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54A11FE2A33ED95D2E8013765B40A7CD /* QRCodeGenerator.xcconfig */,
+				AA7959A1523C50F62A9087080A534FE3 /* QRCodeGenerator-dummy.m */,
+				7947496BB36AF4514ACA10BBE6B8AB2E /* QRCodeGenerator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QRCodeGenerator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		62A5FE9369FFC9B8BD87052E39BC685F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8E8352F42D0FF7D6D9AB1C586A82F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B933968B4058AE6340E3696B86DF87C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6402176D278274907226BF1D80E71B /* bitstream.h in Headers */,
+				228840F7B6C94D536559F08D0DBBBC27 /* config.h in Headers */,
+				50E04C480B58C5B6953B2D239459977A /* mask.h in Headers */,
+				7E38DC3D11DD86694FE6572DB52A23BA /* mmask.h in Headers */,
+				F36F25E7F97BD48619738622DE05B401 /* mqrspec.h in Headers */,
+				DB974FE7B4134EBD58896E9894A5BBE7 /* QRCodeGenerator.h in Headers */,
+				529C787410313FDFD50C6C2A287000BA /* qrencode.h in Headers */,
+				3E130055EC29BE075F0A0E6DE18DF57E /* qrinput.h in Headers */,
+				CF41C6FB31CFA78A84642F0409396E95 /* qrspec.h in Headers */,
+				EFDDC09C5C92A9B818A95F611145F0A2 /* rscode.h in Headers */,
+				1EC18899A7936E8732C53D32DEB6B589 /* split.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52BA04343817721A9CCF58A738FE2D76 /* Pods-QRCodeGenerator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E44E12337F89124D691B177A8849D1 /* Build configuration list for PBXNativeTarget "Pods-QRCodeGenerator_Tests" */;
+			buildPhases = (
+				8D8E8352F42D0FF7D6D9AB1C586A82F8 /* Headers */,
+				FACD315D118D442839EE962047F08A59 /* Sources */,
+				804509BC50EF2183A5CAFD42C4BAFE4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				159F441D50F43A99CF7B9BFC923D2C5D /* PBXTargetDependency */,
+			);
+			name = "Pods-QRCodeGenerator_Tests";
+			productName = "Pods-QRCodeGenerator_Tests";
+			productReference = 5B34A3BEFA33494292929929B5112D1A /* libPods-QRCodeGenerator_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9705EABBCC2C6AFFECA72D38AE6A3005 /* Pods-QRCodeGenerator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7E699A61C6BF2ADBC6B7E1B44F955C /* Build configuration list for PBXNativeTarget "Pods-QRCodeGenerator_Example" */;
+			buildPhases = (
+				62A5FE9369FFC9B8BD87052E39BC685F /* Headers */,
+				02DFF0FB2DBD275BE6D3EE27A97D441E /* Sources */,
+				CF3AA167EE993BAD0B38C1FA8E0E5C4B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B773B4AAE8F55CEC339FE0B383E4BA04 /* PBXTargetDependency */,
+			);
+			name = "Pods-QRCodeGenerator_Example";
+			productName = "Pods-QRCodeGenerator_Example";
+			productReference = A4A1C6E93212CB9511FE1A28B5E9DA5B /* libPods-QRCodeGenerator_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A8B0B6171532EC0234B428D8FF5C933C /* QRCodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27628075A11FE56B89B3A9463897C739 /* Build configuration list for PBXNativeTarget "QRCodeGenerator" */;
+			buildPhases = (
+				B933968B4058AE6340E3696B86DF87C1 /* Headers */,
+				EFE608E48C586494BD992E221889C902 /* Sources */,
+				93FFCF3479F481D1159DF0363CC3AB0C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeGenerator;
+			productName = QRCodeGenerator;
+			productReference = 778CF0F86D82AFD23CA34040454E32D8 /* libQRCodeGenerator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B5DAE0B1467862486E8F8E32DFB6CDD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9705EABBCC2C6AFFECA72D38AE6A3005 /* Pods-QRCodeGenerator_Example */,
+				52BA04343817721A9CCF58A738FE2D76 /* Pods-QRCodeGenerator_Tests */,
+				A8B0B6171532EC0234B428D8FF5C933C /* QRCodeGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02DFF0FB2DBD275BE6D3EE27A97D441E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B9CB3271617FE9FCFCBBDBC56860C1 /* Pods-QRCodeGenerator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE608E48C586494BD992E221889C902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C50811286282AFAF8AFE9AC813898ED /* bitstream.c in Sources */,
+				825BD54AA7ED31C586946A8613E503A5 /* mask.c in Sources */,
+				8F91BC846596B4109ABF9738B31B186A /* mmask.c in Sources */,
+				B6A688D140FF2EC28B95085B559D9DE2 /* mqrspec.c in Sources */,
+				E320745B7F2788BA36DE3DD3BA507229 /* QRCodeGenerator-dummy.m in Sources */,
+				D86EB1CF794F45C24A7B5D4D91B256CB /* QRCodeGenerator.m in Sources */,
+				492B05A2BAC1FCE72D7F704751A1C4D6 /* qrencode.c in Sources */,
+				CA56323901FAF83C119DBE79F6F945E3 /* qrinput.c in Sources */,
+				DF80086E3F6CB21072DF7AA4462463DE /* qrspec.c in Sources */,
+				A3B27EC3948D94AC7A364A5A139A131F /* rscode.c in Sources */,
+				57AA873E7EDF54B5EEDAA59B79CCB1F1 /* split.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACD315D118D442839EE962047F08A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578CB1723AD383C541C48C49AF58EC3C /* Pods-QRCodeGenerator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		159F441D50F43A99CF7B9BFC923D2C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QRCodeGenerator_Example";
+			target = 9705EABBCC2C6AFFECA72D38AE6A3005 /* Pods-QRCodeGenerator_Example */;
+			targetProxy = 6C672C2A806B257DE095C0AC698C2B1F /* PBXContainerItemProxy */;
+		};
+		B773B4AAE8F55CEC339FE0B383E4BA04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QRCodeGenerator;
+			target = A8B0B6171532EC0234B428D8FF5C933C /* QRCodeGenerator */;
+			targetProxy = 61457E1B741AA99E7C9AEC847B476FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28CEBA25FF9FB04FED301AD14BEDCDA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A11FE2A33ED95D2E8013765B40A7CD /* QRCodeGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeGenerator/QRCodeGenerator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QRCodeGenerator;
+				PRODUCT_NAME = QRCodeGenerator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		646E9B17B44CB4C718AEA55091C660DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B7986B22F0FC2A100396BA6ACC596B /* Pods-QRCodeGenerator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC96D51DD6E07C12FE129C98D5414F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18794012DD9960E721CF2B1B1C916423 /* Pods-QRCodeGenerator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0D3877DA640C999364DE078C0D0B638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741D49427FBD2E6DCFE57148635D078A /* Pods-QRCodeGenerator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61567AB089D6195ABE3C436F23D402F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C376577A72C7C31A1B78A0F43021265 /* Pods-QRCodeGenerator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF606D13D34D68FB322DD306DD1FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A11FE2A33ED95D2E8013765B40A7CD /* QRCodeGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/QRCodeGenerator/QRCodeGenerator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = QRCodeGenerator;
+				PRODUCT_NAME = QRCodeGenerator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27628075A11FE56B89B3A9463897C739 /* Build configuration list for PBXNativeTarget "QRCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CEBA25FF9FB04FED301AD14BEDCDA4 /* Debug */,
+				EAF606D13D34D68FB322DD306DD1FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E44E12337F89124D691B177A8849D1 /* Build configuration list for PBXNativeTarget "Pods-QRCodeGenerator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61567AB089D6195ABE3C436F23D402F /* Debug */,
+				B0D3877DA640C999364DE078C0D0B638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7E699A61C6BF2ADBC6B7E1B44F955C /* Build configuration list for PBXNativeTarget "Pods-QRCodeGenerator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC96D51DD6E07C12FE129C98D5414F1F /* Debug */,
+				646E9B17B44CB4C718AEA55091C660DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
